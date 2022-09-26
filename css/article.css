@@ -209,17 +209,17 @@ body {
 /*footer*/
 
 
-footer {
+footer { 
 
-  position: relative;
-  bottom: 0px;
+ 
+   
   width: 100%;
 }
 
-.footer1 {
-  padding: 0;
-  /* police decriture */
-  color: #4b4c4d;
+ .footer1 {
+
+  background-color: #0f0f0f;
+  color: #fefefe;
 }
 
 .footer1 ul {
@@ -249,7 +249,7 @@ footer {
 
 .footer1 .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .footer1 .social>a {
@@ -261,7 +261,7 @@ footer {
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ccc;
-  margin: 0 8px;
+  margin: 8px 8px;
   color: inherit;
   opacity: 0.75;
 }

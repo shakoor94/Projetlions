@@ -89,3 +89,6 @@ include_once 'includes/header.php';
             <?php } ?>
         </div>
     </div>
+    <?php
+  require_once 'includes/footer.php';
+?>
