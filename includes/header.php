@@ -58,7 +58,7 @@
             <button class="btn" type="button">GO</button>
         </div>
         <div class="logo-panier">
-            <a href="" class="sac">
+            <a href="./panier.php" class="sac">
                 <img src="./Images/logo panier.png"></a>
         </div>
         <img src="./Images/icons8-menu-50.png" alt="menu hamburger" class="menu-hamburger" />

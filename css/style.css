@@ -189,6 +189,58 @@ header p {
 
 
 
+@media screen and (max-width:1200px) {
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .menu-hamburger {
+    display: block;
+  }
+
+  .navlinks {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-left: -100%;
+
+
+  }
+
+  .navlinks ul li a:hover {
+    background: rgb(222, 188, 15);
+    color: white;
+    z-index: 1000;
+  }
+
+
+  .mobile-menu {
+    margin-left: 0;
+  }
+
+
+  .navlinks ul li a {
+    color: #dcb31e;
+  }
+
+  .navlinks ul {
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+
+  }
+
+  .navbar .navlinks ul li {
+    margin: 25px 0;
+  }
+
+}
 
 
 

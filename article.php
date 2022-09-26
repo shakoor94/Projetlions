@@ -1,6 +1,9 @@
 <?php
 include_once 'includes/products.php';
 include_once 'includes/articles.php';
+session_start();
+include_once("./fonctions-panier.php");
+
 
 $articleId = $_GET['id'];
 $products = getProductsByArticle($articleId);
@@ -25,6 +28,7 @@ $article = getArticle($articleId);
 <?php
 include_once 'includes/header.php';
 ?>
+
     <?php foreach ($products as $product) {?>
     <div class="container mt-5 mb-5">
         <div class="card">
@@ -64,7 +68,7 @@ include_once 'includes/header.php';
                         <div class="ratings d-flex flex-row align-items-center">
                             <div class="d-flex flex-row"> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i
                                     class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bx-star'></i>
-                            </div> <span>441 Avis</span>
+                            </div> <span>Avis</span>
                         </div>
                         <div class="mt-5"> <span class="fw-bold">Color</span>
                             <div class="colors">
