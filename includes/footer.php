@@ -1,8 +1,8 @@
 <div class="footer1">
     <footer>
         <div class="social">
-            </i></a><a href="https://twitter.com/lions_training" target=" blank"> <img src="./images/twitter.png"
-                    alt="">
+             </i></a><a href="https://twitter.com/lions_training" target=" blank"> <img src="./images/twitter.png" alt="">
+                    
                 <i class="icon ion-social-instagram"></i></a><a href="https://www.instagram.com/thelionstraining/"
                 target=" blank">
                 <img src="./Images/instagram-logo-png-transparent-b.png" alt="">
@@ -14,7 +14,7 @@
         <ul class="list-inline">
             <li class="list-inline-item"><a href="./contact.php">Contact & SAV</a></li>
             <li class="list-inline-item"><a href="#">A Propos de The Lion's</a></li>
-            <li class="list-inline-item"><a href="#">Legal</a></li>
+            <li class="list-inline-item"><a href="./legal.php">Legal</a></li>
         </ul>
         <p class="copyright">COPYRIGHT © 2022</p>
     </footer>
