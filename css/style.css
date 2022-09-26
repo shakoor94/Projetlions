@@ -17,7 +17,10 @@
   font-size: 30px;
   text-decoration: none;
 }
-
+.titre:hover
+{
+    color : whitesmoke;
+}
 header p {
   text-align: center;
 }

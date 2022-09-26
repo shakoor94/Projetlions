@@ -1,7 +1,7 @@
 <div class="footer1">
     <footer>
         <div class="social">
-             </i></a><a href="https://twitter.com/lions_training" target=" blank"> <img src="./images/twitter.png" alt="">
+             </i></a><a href="https://twitter.com/lions_training" target="blank"> <img src="./images/twitter.png" alt="">
                     
                 <i class="icon ion-social-instagram"></i></a><a href="https://www.instagram.com/thelionstraining/"
                 target=" blank">
