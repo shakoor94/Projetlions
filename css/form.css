@@ -1,0 +1,236 @@
+.back{
+  background-color:#cda333;
+ display: flex;
+align-items: center;
+}
+
+.back a {
+    margin-left: 10px;
+}
+
+.back h5 {
+    margin-left: 15px;
+}
+/* CONNEXION */
+
+section#connexion {
+    background-color: #f9f9fb;
+    /* padding 100 px en haut et en bas 0 sur les cotes */
+    padding: 90px 15px;
+}
+
+section#connexion .formulaire {
+    max-width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 60px 10px;
+    border-radius: 15px;
+    /* pour eviter que le padding pousse la box sur les cotes */
+    box-sizing: border-box;
+    box-shadow:  rgb(214 214 214) 0px 10px 50px -10px #d6d6d6;
+}
+
+section#connexion .formulaire.title {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 60px;
+}
+
+
+
+section#connexion .formulaire .title h2 {
+    font-size: 3em;
+}
+
+section#connexion .formulaire form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+}
+section#connexion .formulaire form input {
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section#connexion .formulaire form input:hover,
+section#connexion .formulaire form textarea:hover {
+    border-bottom: 2px solid #cda333;
+}
+
+section#connexion .formulaire form input,
+section#connexion .formulaire form textarea {
+    margin: 17px 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+section#connexion .formulaire form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+section#connexion .formulaire form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: rgb(234, 225, 225);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section#connexion .formulaire form button:hover {
+    transform: translateY(-5px);
+    /* box-shadow: rgb(214 214 214) 0px 10px 40px 2px #d6d6d6; */
+}
+
+@media screen and (max-width: 500px) {
+    section#connexion .formulaireform {
+    flex-direction: column;
+    width: 95%;
+}
+
+section#connexion .formulaire form input {
+    width: 100%;
+}
+
+
+section#connexion .formulaire.title h2 {
+    font-size: 2em;
+}
+}
+
+/*INSCRIPTION */
+
+section#inscription {
+    background-color: #f9f9fb;
+    /* padding 100 px en haut et en bas 0 sur les cotes */
+    padding: 75px 15px;
+}
+
+section#inscription .formulaire {
+    max-width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 60px 10px;
+    border-radius: 15px;
+    /* pour eviter que le padding pousse la box sur les cotes */
+    box-sizing: border-box;
+    box-shadow:  rgb(214 214 214) 0px 10px 50px -10px #d6d6d6;
+}
+
+section#inscription .formulaire .title {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 60px;
+}
+
+
+section#inscription .formulaire .title h2 {
+    font-size: 3em;
+}
+
+section#inscription .formulaire form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+}
+section#inscription .formulaire form input {
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+section#inscription .formulaire form input:hover,
+section#inscription .formulaire form textarea:hover {
+    border-bottom: 2px solid #cda333;
+}
+
+section#inscription .formulaire form input,
+section#inscription .formulaire form textarea {
+    margin: 17px 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+section#inscription .formulaire form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+section#inscription .formulaire form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: rgb(234, 225, 225);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section#inscription .formulaire form button:hover {
+    transform: translateY(-5px);
+    /* box-shadow: rgb(214 214 214) 0px 10px 40px 2px #d6d6d6; */
+}
+
+@media screen and (max-width: 500px) {
+    section#inscription .formulaire form {
+    flex-direction: column;
+    width: 95%;
+}
+
+section#inscription .formulaire form input {
+    width: 100%;
+}
+
+
+section#inscription .formulaire .title h2 {
+    font-size: 2em;
+}
+}
+/*-----------------------------------------------------------*/
+.alert-success {
+    color: rgb(10, 10, 10);
+    background-color: rgb(63, 243, 63);
+}
+.alert-danger {
+    color: #090909;
+
+    background-color: rgb(240, 19, 19);
+}

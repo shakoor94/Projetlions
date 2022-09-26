@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Breaker The Brush';
+  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
+      url('font/BreakerTheBrush-Regular.woff') format('woff'),
+      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body { 
+    margin: 0;
+    text-align: justify;
+    color: whitesmoke;
+    background-image: url(./font/pexels-la-miko-3616764.jpg);
+
+    }
+
+  .container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+    /* font-family: 'Breaker The Brush' */
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+
+  .carousel span{
+    color: whitesmoke;
+    font-family: 'Breaker The Brush';
+  }
+
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 100px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-size: cover;
+    /* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
+    display: flex;
+    margin: 2em;
+    border-radius: 10px;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url(../images/carousel/casque-de-boxe-adulte-ouvert-900-noir\ \(5\).jpg);
+    transform: rotateY(0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url(../images/carousel/mitaines-de-cardio-boxing-500-noires\ \(5\).jpg);
+      transform: rotateY(40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url(../images/carousel/sac-de-frappe-500-angle-bordeaux\ \(7\).jpg);
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url(../images/carousel/protege-tibias-pieds-de-kick-boxing-900-adulte\ \(5\).jpg);
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url(../images/carousel/sac-de-frappe-500-strike-kick-boxing-noir\ \(7\).jpg);
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url(../images/carousel/protege-tibias-pieds-de-kick-boxing-900-adulte\ \(6\).jpg);
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url(../images/carousel/casque-de-boxe-adulte-ouvert-900-noir\ \(7\).jpg);
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url(../images/carousel/sac-de-frappe-500-strike-kick-boxing-noir\ \(8\).jpg);
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url(../images/carousel/Logo_Lions.png);
+    transform: rotateY(320deg) translateZ(430px); }
+  
+    .fictive {
+      height: 650px;
+    }
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+  /* //////////////// FOOTER */
+
+  footer { 
+
+ 
+   
+    width: 100%;
+  }
+  
+   .footer1 {
+
+    background-color: #0f0f0f;
+    color: #fefefe;
+  }
+  
+  .footer1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer1 li {
+    padding: 0 10px;
+  }
+  
+  .footer1 ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer1 ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer1 .social {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .footer1 .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 8px 8px;
+    color: inherit;
+    opacity: 0.75;
+  }
+  
+  .footer1 .social>a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer1 .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+  }
+  
+  Footer © 2022 GitHub,
+  Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About */

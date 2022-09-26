@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#top {
+  background: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.titre {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+header p {
+  text-align: center;
+}
+
+.login {
+  float: right;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* =================================================================        ============ */
+/*Navigation */
+
+.navbar {
+  position: fixed;
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  top: 8%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 2px solid rgb(222, 188, 15);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, .1);
+  padding: 0px 10%;
+  z-index: 1000;
+}
+
+
+
+
+.logo {
+  left: 30px;
+
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+
+
+}
+
+.navlinks ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+
+
+
+}
+
+.navlinks ul li {
+  position: relative;
+  float: left;
+
+}
+
+.navlinks ul li a {
+  font-size: 20px;
+  margin: 7px;
+  padding: 7px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+
+}
+
+.navlinks ul li a:hover {
+  background: rgb(222, 188, 15);
+  color: white;
+
+
+}
+
+.navlinks ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: white;
+  display: none;
+}
+
+.navlinks ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgb(0, 0, 0, .1);
+}
+
+
+.navlinks ul li:hover ul {
+  display: block;
+}
+
+.recherche input {
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+  margin-top: 5%;
+  box-shadow: 0 0 1px 1px black, 0 0 0 0 white;
+}
+
+
+.navbar .menu-hamburger {
+  display: none;
+  position: absolute;
+  width: 35px;
+  right: 50px;
+}
+
+@media screen and (max-width:900px) {
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .menu-hamburger {
+    display: block;
+  }
+
+  .navlinks {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-left: -100%;
+
+
+  }
+
+  .navlinks ul li a:hover {
+    background: rgb(222, 188, 15);
+    color: white;
+    z-index: 1000;
+  }
+
+
+  .mobile-menu {
+    margin-left: 0;
+  }
+
+
+  .navlinks ul li a {
+    color: #dcb31e;
+  }
+
+  .navlinks ul {
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+
+  }
+
+  .navbar .navlinks ul li {
+    margin: 25px 0;
+  }
+
+}
+
+
+
+
+
+
+
+/* =================================================================        ============ */
+/* #carouselExampleIndicators {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5%;
+  padding: 10%;
+
+}*/
+
+/* CAROUSEL */
+
+/*@font-face {
+  font-family: 'Breaker The Brush';
+  src: url('font/BreakerTheBrush-Regular.woff2') format('woff2'),
+      url('font/BreakerTheBrush-Regular.woff') format('woff'),
+      url('font/BreakerTheBrush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+
+/* =================================================================        ============ */
+#container {
+
+  margin: 130px;
+}
+
+#container h1 {
+  margin: 10px;
+  margin-top: 9%;
+}
+
+
+/*footer*/
+
+
+footer {
+
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer1 {
+  padding: 0;
+  /* police decriture */
+  color: #4b4c4d;
+}
+
+.footer1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer1 li {
+  padding: 0 10px;
+}
+
+.footer1 ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer1 ul a:hover {
+  opacity: 1;
+}
+
+.footer1 .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer1 .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer1 .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer1 .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About */
+
